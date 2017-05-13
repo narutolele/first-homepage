@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./swiper.min.css">
+</head>
+<style>
+html {
+        width: 100%;
+    }
+    
+    body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .top {
+        position: fixed;
+        width: 100%;
+    }
+    
+    ul#nav {
+        width: 100%;
+        height: 60px;
+        background: #44489B;
+        margin: 0 auto;
+    }
+    
+    #nav>li {
+        display: inline;
+        height: 60px;
+    }
+    
+    #nav>li>a {
+        display: inline - block;
+        padding: 0 20px;
+        height: 60px;
+        line-height: 60px;
+        color: #FFF;
+        font-family: "\5FAE\8F6F\96C5\9ED1";
+        font-size: 16px;
+    }
+    
+    #nav>li>a:hover {
+        background: #FF73B3;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .one {
+        background-image: url(./img/1.png);
+        background-size: cover;
+        padding-top: 200px;
+        padding-bottom: 300px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .one1 {
+        position: relative;
+        left: 65%;
+        display: inline-block;
+    }
+    
+    .one1>p {
+        font-size: 38px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: #FFFFFF;
+    }
+    
+    .one1>button {
+        background-color: #FF73B3;
+        border: 1px;
+        color: white;
+        padding: 15px 36px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10em;
+        margin-top: 15px;
+        box-shadow: 2px 0px 20px #FF73B3;
+    }
+    
+    .two {
+        background-image: url(./img/2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 912px;
+    }
+    
+    .two1 {
+        position: relative;
+        left: 13%;
+        top: 13%;
+        display: inline-block;
+    }
+    
+    .two1>p {
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .fen {
+        width: 76px;
+        height: 6px;
+        background-color: #FF70B1;
+    }
+    
+    .three {
+        background-image: url(./img/3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 919px;
+    }
+    
+    .three1 {
+        position: relative;
+        left: 13%;
+        top: 13%;
+        display: inline-block;
+    }
+    
+    .three1>p {
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .four {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        background: white;
+    }
+    
+    .four2 {
+        text-align: center;
+    }
+    
+    .four>.four2>.fen {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .four>.four2>p {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .five {
+        background-image: url(./img/4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 359px;
+    }
+    
+    .five>button {
+        background-color: #FF73B3;
+        border: 1px;
+        color: white;
+        padding: 15px 36px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10em;
+        box-shadow: 2px 0px 20px #FF73B3;
+        position: relative;
+        top: 25%;
+        left: 60%;
+    }
+    
+    .five1 {
+        display: inline-block;
+        position: relative;
+        top: 28%;
+        left: 10%;
+    }
+.five1>p:nth-child(1) {
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+.five1>p:nth-child(2) {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+/**轮播**/
+.swiper-container {
+    width: 100%;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+</style>
+
+<body>
+
+    <section class="top">
+        <ul id="nav">
+            <li><a href="http://www.baidu.com/">百度</a></li>
+            <li><a href="http://www.baidu.com/">百度</a></li>
+            <li><a href="http://www.baidu.com/">百度</a></li>
+            <li><a href="http://www.baidu.com/">百度</a></li>
+            <li><a href="http://www.baidu.com/">百度</a></li>
+            <li><a href="http://www.baidu.com/">百度</a></li>
+        </ul>
+    </section>
+    <section class="one">
+        <div class="one1">
+            <p>WE BRING</p>
+            <p>EMOTION TO YOUR</p>
+            <p>PRODUCT</p>
+            <button>CONTACT US</button>
+        </div>
+    </section>
+    <section class="two">
+        <div class="two1">
+            <p>WHAT</p>
+            <p>I</p>
+            <p>DO</p>
+            <div class="fen"></div>
+        </div>
+    </section>
+    <section class="three">
+        <div class="three1">
+            <p>OUR</p>
+            <p>LATEST</p>
+            <p>WORK</p>
+            <div class="fen"></div>
+        </div>
+    </section>
+    <section class="four">
+        <div class="four2">
+            <P>OUR DAILY ROUTINE</P>
+            <div class="fen"></div>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(./img/dog.jpg)"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="five">
+        <div class="five1">
+            <p>PAPERPILLAR</p>
+            <p>Happa Design Siudio bassed in Yogykarta</p>
+        </div>
+        <button>CONTACT US</button>
+    </section>
+    <script src="./swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflow: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true
+            }
+        });
+    </script>
+</body>
+
+</html>
